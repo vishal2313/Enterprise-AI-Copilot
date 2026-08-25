@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.env
+copilot.db
+.chroma/
+copilot_backup_before_versions.db
