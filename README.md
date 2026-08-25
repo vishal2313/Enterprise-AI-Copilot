@@ -317,12 +317,14 @@ Potential future extensions include:
 - Deployment using Docker
 - Production-grade observability
 
-
 ## Author
 
 **Vishal Sonkar**
 
-Computer Science and Engineering
+Bachelor of Technology (B.Tech)  
+Department of Computer Science and Engineering  
+National Institute of Technology Calicut
 
 GitHub: [vishal2313](https://github.com/vishal2313)
 
+---
