@@ -236,7 +236,6 @@ Make sure the following are installed:
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/vishal2313/Enterprise-AI-Copilot.git
 cd Enterprise-AI-Copilot
 
