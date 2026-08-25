@@ -1,14 +1,26 @@
 # Enterprise AI Copilot
 
-An enterprise-focused AI assistant that uses **Retrieval-Augmented Generation (RAG)** to answer questions from uploaded organizational documents. The system combines document retrieval, local LLM inference, conversational context, and source attribution in a ChatGPT-style interface.
-
 ## Overview
 
-Enterprise AI Copilot is designed to provide grounded answers over an organization's internal knowledge base.
+Enterprise AI Copilot is an enterprise-focused AI assistant designed to help users interact with organizational knowledge through natural-language queries.
 
-Instead of relying only on the language model's general knowledge, the system retrieves relevant document content and provides that context to a locally running LLM before generating the response.
+The system uses **Retrieval-Augmented Generation (RAG)** to retrieve relevant information from available documents and provide that context to a locally running Large Language Model (LLM). This enables grounded responses while maintaining conversational context and providing source attribution.
 
-The project is built with a **React frontend**, **FastAPI backend**, **SQLite database**, and **Ollama-powered local LLM inference**.
+The current implementation focuses on document-based question answering, information analysis, conversational follow-ups, source-based verification, response regeneration, response versioning, and local LLM inference.
+
+The application is built using a **React frontend, FastAPI backend, SQLite database, document retrieval pipeline, and Ollama-powered local LLM**.
+
+## Design Goals
+
+The project is designed around the following goals:
+
+- Provide grounded and context-aware responses
+- Make organizational knowledge easier to access and analyze
+- Provide source attribution for retrieved information
+- Maintain conversational context across follow-up questions
+- Support response regeneration and versioning
+- Enable local LLM inference for privacy-conscious AI applications
+- Provide a foundation for extending AI assistance to broader enterprise workflows
 
 ## Features
 
@@ -287,35 +299,21 @@ From the project root:
 
 Create a `.env` file in the project root for local configuration if required.
 
-Sensitive configuration files such as `.env`, local databases, and virtual environments are excluded from Git through `.gitignore`.
+Sensitive configuration files such as `.env`, local databases, and virtual environments are excluded from Git through `.gitignore`
 
-
-## Design Goals
-
-The project focuses on:
-
-- Grounded enterprise question answering
-- Local and privacy-conscious LLM inference
-- Retrieval quality
-- Conversational interaction
-- Explainable responses through source attribution
-- Practical AI application development
-
-
-## Future Improvements
+## Future Work
 
 Potential future extensions include:
 
-- Improved document ingestion and chunking
-- More advanced hybrid retrieval
-- Re-ranking retrieved documents
 - Authentication and authorization
-- Role-based enterprise access
-- Persistent vector database integration
-- Multi-document management
-- Improved evaluation and retrieval metrics
-- Deployment using Docker
-- Production-grade observability
+- Role-based access control
+- Stronger enterprise security
+- Codebase-aware coding assistance
+- Advanced document and code analysis
+- Multi-user enterprise deployment
+- Improved retrieval and document re-ranking
+- Evaluation and monitoring
+- Docker-based deployment and production readiness
 
 ## Author
 
@@ -327,4 +325,3 @@ National Institute of Technology Calicut
 
 GitHub: [vishal2313](https://github.com/vishal2313)
 
----
