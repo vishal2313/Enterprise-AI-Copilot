@@ -125,6 +125,7 @@ The project is built with a **React frontend**, **FastAPI backend**, **SQLite da
 - Python virtual environment
 - npm
 
+```text
 Enterprise-AI-Copilot/
 │
 ├── app/
