@@ -53,10 +53,9 @@ The project is built with a **React frontend**, **FastAPI backend**, **SQLite da
 
 ## Architecture
 
-```text
                          ┌──────────────────────┐
                          │      React UI        │
-                         │   Vite Frontend     │
+                         │   Vite Frontend      │
                          └──────────┬───────────┘
                                     │
                                     │ HTTP
