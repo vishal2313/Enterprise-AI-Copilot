@@ -125,6 +125,8 @@ The project is built with a **React frontend**, **FastAPI backend**, **SQLite da
 - Python virtual environment
 - npm
 
+## Project Structure
+
 ```text
 Enterprise-AI-Copilot/
 │
@@ -161,7 +163,7 @@ Enterprise-AI-Copilot/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 ## Screenshots
 
 ### Main Chat Interface
