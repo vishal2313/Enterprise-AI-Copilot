@@ -315,7 +315,7 @@ Potential future extensions include:
 - Evaluation and monitoring
 - Docker-based deployment and production readiness
 
-## Author
+## 👤 Author
 
 **Vishal Sonkar**
 
@@ -323,5 +323,5 @@ Bachelor of Technology (B.Tech)
 Department of Computer Science and Engineering  
 National Institute of Technology Calicut
 
-GitHub: [vishal2313](https://github.com/vishal2313)
+GitHub: https://github.com/vishal2313
 
